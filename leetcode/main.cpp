@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include <stdio.h>
+#include <vector>
+#include <string>
+#include "h10.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main( int argc, char ** argv ) {
+    Solution sol;
+    sol.test();
     return 0;
-}
+};

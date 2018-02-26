@@ -24,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		1A29BDC8203F847F00BD1D4B /* m12.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m12.hpp; sourceTree = "<group>"; };
+		1A29BDC9204108A200BD1D4B /* e14.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e14.hpp; sourceTree = "<group>"; };
+		1A2A8CD32042136C005EF7A7 /* m15.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m15.hpp; sourceTree = "<group>"; };
 		1A371EA6203538E400AB96E0 /* m5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m5.hpp; sourceTree = "<group>"; };
 		1A371EA720364D7C00AB96E0 /* m6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m6.hpp; sourceTree = "<group>"; };
 		1A371EA8203736C600AB96E0 /* e7.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e7.hpp; sourceTree = "<group>"; };
@@ -80,6 +82,8 @@
 				1A371EA8203736C600AB96E0 /* e7.hpp */,
 				1AA77F0220325036003B49E2 /* h4.hpp */,
 				1AF155E820375EE200B81ACA /* m8.hpp */,
+				1A29BDC9204108A200BD1D4B /* e14.hpp */,
+				1A2A8CD32042136C005EF7A7 /* m15.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";

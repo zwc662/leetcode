@@ -10,10 +10,10 @@
 #include <stdio.h>
 #include <vector>
 #include <string>
-#include "h10.hpp"
+#include "m16.hpp"
 
 int main( int argc, char ** argv ) {
     Solution sol;
-    sol.test();
-    return 0;
-};
+    vector<int> test = {1,1,1,0};
+    sol.test(test, 100);
+}

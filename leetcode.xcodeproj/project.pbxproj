@@ -32,6 +32,9 @@
 		1A95318A2044BFC400E2FBDC /* m16.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = m16.hpp; sourceTree = "<group>"; };
 		1A95318B2045226D00E2FBDC /* m17.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m17.hpp; sourceTree = "<group>"; };
 		1A95318C2045343500E2FBDC /* m18.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m18.hpp; sourceTree = "<group>"; };
+		1A95318D2046030600E2FBDC /* m19.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m19.hpp; sourceTree = "<group>"; };
+		1A95318E204616A300E2FBDC /* e20.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e20.hpp; sourceTree = "<group>"; };
+		1A95318F20461E2200E2FBDC /* e21.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e21.hpp; sourceTree = "<group>"; };
 		1AA77F01202D36BA003B49E2 /* m3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = m3.hpp; sourceTree = "<group>"; };
 		1AA77F0220325036003B49E2 /* h4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = h4.hpp; sourceTree = "<group>"; };
 		1AE7494C203E3D2800E33974 /* m11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m11.hpp; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		1AF75853202C0545003879D4 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				1A95318F20461E2200E2FBDC /* e21.hpp */,
 				1AF75854202C0545003879D4 /* main.cpp */,
 				1AF155E92039F12400B81ACA /* h10.hpp */,
 				1AE7494C203E3D2800E33974 /* m11.hpp */,
@@ -90,6 +94,8 @@
 				1A95318A2044BFC400E2FBDC /* m16.hpp */,
 				1A95318B2045226D00E2FBDC /* m17.hpp */,
 				1A95318C2045343500E2FBDC /* m18.hpp */,
+				1A95318D2046030600E2FBDC /* m19.hpp */,
+				1A95318E204616A300E2FBDC /* e20.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";

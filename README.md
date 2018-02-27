@@ -1,7 +1,7 @@
 # leetcode
 
-## Solutions for all leetcode problems
+Solutions for all leetcode problems.
 
-## One header file covers one problem.
+One header file covers one problem.
 
-## Include the header file in main.cpp file.
+Include the header file in main.cpp file.

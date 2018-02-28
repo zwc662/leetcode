@@ -36,6 +36,12 @@
 		1A95318E204616A300E2FBDC /* e20.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e20.hpp; sourceTree = "<group>"; };
 		1A95318F20461E2200E2FBDC /* e21.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e21.hpp; sourceTree = "<group>"; };
 		1A9531902046F96900E2FBDC /* e26.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e26.hpp; sourceTree = "<group>"; };
+		1A953191204758FB00E2FBDC /* e27.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e27.hpp; sourceTree = "<group>"; };
+		1A9531922047598A00E2FBDC /* e203.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e203.hpp; sourceTree = "<group>"; };
+		1A9531932047601100E2FBDC /* e237.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e237.hpp; sourceTree = "<group>"; };
+		1A9531942047629500E2FBDC /* e83.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e83.hpp; sourceTree = "<group>"; };
+		1A953195204765EB00E2FBDC /* e234.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e234.hpp; sourceTree = "<group>"; };
+		1A953196204771F600E2FBDC /* e206.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = e206.hpp; sourceTree = "<group>"; };
 		1AA77F01202D36BA003B49E2 /* m3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = m3.hpp; sourceTree = "<group>"; };
 		1AA77F0220325036003B49E2 /* h4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = h4.hpp; sourceTree = "<group>"; };
 		1AE7494C203E3D2800E33974 /* m11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = m11.hpp; sourceTree = "<group>"; };
@@ -98,6 +104,12 @@
 				1A95318C2045343500E2FBDC /* m18.hpp */,
 				1A95318D2046030600E2FBDC /* m19.hpp */,
 				1A95318E204616A300E2FBDC /* e20.hpp */,
+				1A953191204758FB00E2FBDC /* e27.hpp */,
+				1A9531922047598A00E2FBDC /* e203.hpp */,
+				1A9531932047601100E2FBDC /* e237.hpp */,
+				1A9531942047629500E2FBDC /* e83.hpp */,
+				1A953195204765EB00E2FBDC /* e234.hpp */,
+				1A953196204771F600E2FBDC /* e206.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";

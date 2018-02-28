@@ -15,18 +15,15 @@
 
 #ifndef e26_h
 #define e26_h
-
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        if(nums.size() == 0) return nums.size();
-        int len = nums.size();
-        for(auto i = nums.begin() + 1; i != nums.end(); i++) {
-            if(*i == *(i - 1)) continue;
-            else len--;
+        if(nums.size() <= 1) return nums.size();
+        for(size_t i = 1; i < nums.size();) {
+            if(nums[i] != nums[i-1]) i++;
+            else nums.erase(nums.begin() + i, nums.begin() + i + 1);
         }
-        printf("%d", len);
-        return len;
+        return nums.size();
     }
 };
 

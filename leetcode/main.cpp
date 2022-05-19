@@ -7,13 +7,19 @@
 //
 
 #include <iostream>
+#include <fstream>
 #include <stdio.h>
 #include <vector>
 #include <string>
-#include "e20.hpp"
+#include "PathWithMaximumProbability.h"
+using namespace std;
 
 int main( int argc, char ** argv ) {
-    Solution sol;
-   
-    sol.test();
+    std::ifstream myfile; myfile.open("input.txt");
+    std::string mystring;
+    vector<std::string> input_strs;
+    while(getline(myfile, mystring)) input_strs.push_back(mystring);
+    
+    test(input_strs);
 }
+

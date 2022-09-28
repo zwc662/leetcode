@@ -23,18 +23,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A03409728D9781800DCB871 /* MinimumOperationsToReduceXToZero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumOperationsToReduceXToZero.h; sourceTree = "<group>"; };
+		1A03409828DC244000DCB871 /* BinaryTreesWithFactors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreesWithFactors.h; sourceTree = "<group>"; };
+		1A0A12E228CECF10002FA509 /* ReorderDataInLogFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReorderDataInLogFiles.h; sourceTree = "<group>"; };
+		1A0A12E328D28ADF002FA509 /* PlatesBetweenCandles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatesBetweenCandles.h; sourceTree = "<group>"; };
+		1A0A12E428D3EF23002FA509 /* MaximumSumOfTwoNonOverlappingSubarrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximumSumOfTwoNonOverlappingSubarrays.h; sourceTree = "<group>"; };
+		1A0A12E528D4272A002FA509 /* CheckCompletenessOfABinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckCompletenessOfABinaryTree.h; sourceTree = "<group>"; };
 		1A10607328368A0F0012BA01 /* PathWithMaximumProbability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathWithMaximumProbability.h; sourceTree = "<group>"; };
+		1A106074283AC85C0012BA01 /* LongestLineOfConsecutiveOneInMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestLineOfConsecutiveOneInMatrix.h; sourceTree = "<group>"; };
+		1A106075283BC1060012BA01 /* RLEIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLEIterator.h; sourceTree = "<group>"; };
+		1A106076283D18EA0012BA01 /* BinarySubarraysWithSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySubarraysWithSum.h; sourceTree = "<group>"; };
 		1A3E54F8281A16D300B205E0 /* NumberOfMatchingSubsequences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberOfMatchingSubsequences.h; sourceTree = "<group>"; };
 		1A3E54F9281A173800B205E0 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		1A49DC86283586AA0099A8F3 /* OneEditDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneEditDistance.h; sourceTree = "<group>"; };
 		1A49DC872835FF940099A8F3 /* SatisfiabilityOfEqualityEquations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatisfiabilityOfEqualityEquations.h; sourceTree = "<group>"; };
 		1A4BCB74281E444E008C9682 /* FindDuplicateSubtrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindDuplicateSubtrees.h; sourceTree = "<group>"; };
+		1A4CE9C028DE36EA00E74EC2 /* SortList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortList.h; sourceTree = "<group>"; };
 		1A5F01F4282C3F8C005FF48C /* RaceCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaceCar.h; sourceTree = "<group>"; };
 		1A5F01F5282ECF03005FF48C /* DetectSquares.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetectSquares.h; sourceTree = "<group>"; };
 		1A5F01F6282F1C7E005FF48C /* SwapAdjacentinLRString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapAdjacentinLRString.h; sourceTree = "<group>"; };
 		1A5F01F7283040A7005FF48C /* RemoveInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveInterval.h; sourceTree = "<group>"; };
 		1A5F01F82832993E005FF48C /* LongestWordInDictionaryThroughDeleting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestWordInDictionaryThroughDeleting.h; sourceTree = "<group>"; };
 		1A6D7D3C2828B17F00751799 /* PathWithMaximumMinimumValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathWithMaximumMinimumValue.h; sourceTree = "<group>"; };
+		1A8791F62844FD2F00B1AC1C /* DesignSnakeGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSnakeGame.h; sourceTree = "<group>"; };
+		1A8791F72845977F00B1AC1C /* NumberOfGoodWaysToSplitAString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberOfGoodWaysToSplitAString.h; sourceTree = "<group>"; };
+		1A8791F82845D0D400B1AC1C /* AsteroidCollision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsteroidCollision.h; sourceTree = "<group>"; };
+		1A94F97128D4C3A70012A669 /* Minesweeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Minesweeper.h; sourceTree = "<group>"; };
+		1AA8290A283EDB0C00A2C7B5 /* New21Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = New21Game.h; sourceTree = "<group>"; };
+		1AA8290B283FC98400A2C7B5 /* DesignALeaderboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignALeaderboard.h; sourceTree = "<group>"; };
+		1AA8290C284046B700A2C7B5 /* ShortestWayToFormString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortestWayToFormString.h; sourceTree = "<group>"; };
+		1AB90E0028D7C8BE004429DC /* DesignHitCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignHitCounter.h; sourceTree = "<group>"; };
+		1AB90E0128D7FBD3004429DC /* PeekingIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeekingIterator.h; sourceTree = "<group>"; };
+		1AB90E0228D8F1E4004429DC /* LexicographicallySmallestEquivalentString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LexicographicallySmallestEquivalentString.h; sourceTree = "<group>"; };
+		1AC2D70228D61CE700F76F2A /* MinimumSidewayJumps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumSidewayJumps.h; sourceTree = "<group>"; };
+		1ACD33D62842963400F1BFE2 /* SubstringsThatBeginAndEndWithTheSameLetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubstringsThatBeginAndEndWithTheSameLetter.h; sourceTree = "<group>"; };
+		1ACD33D728431C7B00F1BFE2 /* MaximumNumberOfAcceptedInvitations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximumNumberOfAcceptedInvitations.h; sourceTree = "<group>"; };
 		1ACE207F2824A89B0005B853 /* TimeNeededToInformAllEmployees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeNeededToInformAllEmployees.h; sourceTree = "<group>"; };
 		1ACE2080282559EE0005B853 /* ProcessTasksUsingServers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcessTasksUsingServers.h; sourceTree = "<group>"; };
 		1ACE20812826C8B40005B853 /* Single_ThreadedCPU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single_ThreadedCPU.h; sourceTree = "<group>"; };
@@ -70,6 +93,8 @@
 		1AE97284280F455D00D93441 /* e21.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = e21.hpp; sourceTree = "<group>"; };
 		1AE97285280F455D00D93441 /* e26.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = e26.hpp; sourceTree = "<group>"; };
 		1AE9728728104E4600D93441 /* RemoveAllOnesWithRowAndColumnFlips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveAllOnesWithRowAndColumnFlips.h; sourceTree = "<group>"; };
+		1AEA9905284AC81B0067564F /* MeetingScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingScheduler.h; sourceTree = "<group>"; };
+		1AEA9906284EA9C50067564F /* PacificAtlanticWaterFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacificAtlanticWaterFlow.h; sourceTree = "<group>"; };
 		1AF75851202C0545003879D4 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFF8F462820F4990062D2D3 /* LongestArithmeticSubsequenceOfGivenDifference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestArithmeticSubsequenceOfGivenDifference.h; sourceTree = "<group>"; };
 		1AFF8F472821EC220062D2D3 /* MaximumSplitOfPositiveEvenIntegers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximumSplitOfPositiveEvenIntegers.h; sourceTree = "<group>"; };
@@ -129,6 +154,8 @@
 				1AE9727E280F455D00D93441 /* m5.hpp */,
 				1AE97283280F455D00D93441 /* m6.hpp */,
 				1AE97273280F455D00D93441 /* m8.hpp */,
+				1AB90E0128D7FBD3004429DC /* PeekingIterator.h */,
+				1AB90E0228D8F1E4004429DC /* LexicographicallySmallestEquivalentString.h */,
 				1AE9726C280F455C00D93441 /* m11.hpp */,
 				1AE97270280F455D00D93441 /* m12.hpp */,
 				1AE97272280F455D00D93441 /* m15.hpp */,
@@ -140,7 +167,11 @@
 				1AE9726F280F455C00D93441 /* ShortestPathInAGridWithObstaclesElimination.hpp */,
 				1AE9728728104E4600D93441 /* RemoveAllOnesWithRowAndColumnFlips.h */,
 				1AD53A9F28123AD900D29905 /* FindAllPossibleRecipesFromGivenSupplies.h */,
+				1A0A12E528D4272A002FA509 /* CheckCompletenessOfABinaryTree.h */,
+				1A0A12E228CECF10002FA509 /* ReorderDataInLogFiles.h */,
 				1A3E54F8281A16D300B205E0 /* NumberOfMatchingSubsequences.h */,
+				1A03409828DC244000DCB871 /* BinaryTreesWithFactors.h */,
+				1A4CE9C028DE36EA00E74EC2 /* SortList.h */,
 				1A3E54F9281A173800B205E0 /* utils.h */,
 				1A4BCB74281E444E008C9682 /* FindDuplicateSubtrees.h */,
 				1AFF8F462820F4990062D2D3 /* LongestArithmeticSubsequenceOfGivenDifference.h */,
@@ -158,10 +189,29 @@
 				1A5F01F5282ECF03005FF48C /* DetectSquares.h */,
 				1A5F01F6282F1C7E005FF48C /* SwapAdjacentinLRString.h */,
 				1A5F01F7283040A7005FF48C /* RemoveInterval.h */,
+				1A106075283BC1060012BA01 /* RLEIterator.h */,
 				1A5F01F82832993E005FF48C /* LongestWordInDictionaryThroughDeleting.h */,
 				1A49DC86283586AA0099A8F3 /* OneEditDistance.h */,
 				1A49DC872835FF940099A8F3 /* SatisfiabilityOfEqualityEquations.h */,
+				1AA8290A283EDB0C00A2C7B5 /* New21Game.h */,
 				1A10607328368A0F0012BA01 /* PathWithMaximumProbability.h */,
+				1A106074283AC85C0012BA01 /* LongestLineOfConsecutiveOneInMatrix.h */,
+				1A106076283D18EA0012BA01 /* BinarySubarraysWithSum.h */,
+				1AEA9905284AC81B0067564F /* MeetingScheduler.h */,
+				1AEA9906284EA9C50067564F /* PacificAtlanticWaterFlow.h */,
+				1AA8290B283FC98400A2C7B5 /* DesignALeaderboard.h */,
+				1AA8290C284046B700A2C7B5 /* ShortestWayToFormString.h */,
+				1ACD33D62842963400F1BFE2 /* SubstringsThatBeginAndEndWithTheSameLetter.h */,
+				1ACD33D728431C7B00F1BFE2 /* MaximumNumberOfAcceptedInvitations.h */,
+				1A8791F62844FD2F00B1AC1C /* DesignSnakeGame.h */,
+				1A8791F72845977F00B1AC1C /* NumberOfGoodWaysToSplitAString.h */,
+				1A8791F82845D0D400B1AC1C /* AsteroidCollision.h */,
+				1A0A12E328D28ADF002FA509 /* PlatesBetweenCandles.h */,
+				1A0A12E428D3EF23002FA509 /* MaximumSumOfTwoNonOverlappingSubarrays.h */,
+				1A94F97128D4C3A70012A669 /* Minesweeper.h */,
+				1AC2D70228D61CE700F76F2A /* MinimumSidewayJumps.h */,
+				1AB90E0028D7C8BE004429DC /* DesignHitCounter.h */,
+				1A03409728D9781800DCB871 /* MinimumOperationsToReduceXToZero.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";

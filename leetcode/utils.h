@@ -15,13 +15,15 @@
 #define utils_h
 
 
-std::vector<std::string> ReadOneDimStrArray(std::string input_str) {
+std::vector<std::string>
+ReadOneDimStrArray(std::string input_str) {
     std::vector<std::string> strs;
     std::string str;
     for(size_t i = 0; i < input_str.length() - 1; i++) {
         if(input_str.at(i) == ']') break;
         else if(input_str.at(i) == '[')  continue;
         else if(input_str.at(i) == ',') continue;
+        else if(input_str.at(i) == ' ' && str.length() == 0) continue;
         else if(input_str.at(i) == '"') {
             if(str.length() > 0) {
                 //cout<< str << " ";
@@ -35,7 +37,31 @@ std::vector<std::string> ReadOneDimStrArray(std::string input_str) {
     return strs;
 }
 
-std::vector<std::vector<std::string>> ReadTwoDimStrArray(std::string input_str) {
+std::vector<std::vector<char>>
+ReadTwoDimCharArray(std::string input_str) {
+    std::vector<std::vector<char>> chs_vecs;
+    std::vector<char> chs;
+    std::string item;
+    for(size_t i = 0; i < input_str.length() - 1; i++) {
+        if(input_str.at(i) == ']') {
+            if(chs.size() > 0) {
+                //cout<< endl;
+                chs_vecs.push_back(chs);
+                chs.clear();
+            } else continue;
+        }
+        else if(input_str.at(i) == '[') continue;
+        else if(input_str.at(i) == ',') continue;
+        else if(input_str.at(i) == '"') continue;
+        else chs.push_back(input_str.at(i));
+    }
+    
+    return chs_vecs;
+}
+
+
+std::vector<std::vector<std::string>>
+ReadTwoDimStrArray(std::string input_str) {
     std::vector<std::vector<std::string>> str_vecs;
     std::vector<std::string> strs;
     std::string item;
@@ -61,7 +87,8 @@ std::vector<std::vector<std::string>> ReadTwoDimStrArray(std::string input_str) 
     return str_vecs;
 }
 
-std::vector<int> ReadOneDimIntArray(std::string input_str) {
+std::vector<int>
+ReadOneDimIntArray(std::string input_str) {
     std::vector<int> grid;
     int sign = 1;
     int num = 0;
@@ -87,7 +114,8 @@ std::vector<int> ReadOneDimIntArray(std::string input_str) {
 }
 
 
-std::vector<double> ReadOneDimFloatArray(std::string input_str) {
+std::vector<double>
+ReadOneDimFloatArray(std::string input_str) {
     std::vector<double> grid;
     int sign = 1;
     int int_num = 0;
@@ -120,7 +148,8 @@ std::vector<double> ReadOneDimFloatArray(std::string input_str) {
 }
 
 
-std::vector<std::vector<int>> ReadTwoDimIntArray(std::string input_str) {
+std::vector<std::vector<int>>
+ReadTwoDimIntArray(std::string input_str) {
     std::vector<std::vector<int>> grid;
     std::string grid_str_i;
     for(size_t i = 1; i < input_str.length() - 1; i++) {
@@ -136,7 +165,8 @@ std::vector<std::vector<int>> ReadTwoDimIntArray(std::string input_str) {
 }
 
 
-std::vector<std::vector<double>> ReadTwoDimFloatArray(std::string input_str) {
+std::vector<std::vector<double>>
+ReadTwoDimFloatArray(std::string input_str) {
     std::vector<std::vector<double>> grid;
     std::string grid_str_i;
     for(size_t i = 1; i < input_str.length() - 1; i++) {
@@ -152,14 +182,16 @@ std::vector<std::vector<double>> ReadTwoDimFloatArray(std::string input_str) {
 }
 
  
-int ReadOneInt(std::string input_str) {
+int
+ReadOneInt(std::string input_str) {
     int k;
     sscanf(input_str.data(), "%d", &k);
     //cout << k << endl;
     return k;
 }
 
-long long ReadOneLongLong(std::string input_str) {
+long long
+ReadOneLongLong(std::string input_str) {
     long long k;
     sscanf(input_str.data(), "%lld", &k);
     //cout << k << endl;
@@ -167,7 +199,8 @@ long long ReadOneLongLong(std::string input_str) {
 }
 
 
-std::string ReadOneStr(std::string input_str) {
+std::string
+ReadOneStr(std::string input_str) {
     std::string str;
     for(int i = 0; i < input_str.length(); i++) {
         if(input_str.at(i) == '"') continue;

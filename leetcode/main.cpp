@@ -11,7 +11,8 @@
 #include <stdio.h>
 #include <vector>
 #include <string>
-#include "PathWithMaximumProbability.h"
+#include "SortList.h"
+
 using namespace std;
 
 int main( int argc, char ** argv ) {
